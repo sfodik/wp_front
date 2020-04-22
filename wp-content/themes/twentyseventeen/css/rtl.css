@@ -1,0 +1,43 @@
+
+.has-sidebar:not(.error404) #primary {
+    float: right;
+}
+
+.has-sidebar #secondary {
+    float: left;
+}
+
+.single-product .widget_product_search input[type=submit] {
+    right: inherit;
+    left: .5em;
+}
+
+.single-product .widget_product_search .search-field {
+    padding-right: 100px;
+    padding-right: 10px;
+}
+
+.single-product .woocommerce-product-rating .star-rating {
+    float: right;
+}
+
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+    float: right;
+    margin-right: 0;
+    margin-left: 3.8%;
+}
+
+.site-footer .widget .product_list_widget li a.remove, .widget .product_list_widget li a.remove {
+    float: left;
+}
+
+.woocommerce-LoopProduct-link {
+    text-align: right;
+}
+
+.woocommerce-LoopProduct-link *:after {
+    content: "\200E‎";
+}
+.woocommerce-LoopProduct-link *:before {
+    content: "\200E‎";
+}

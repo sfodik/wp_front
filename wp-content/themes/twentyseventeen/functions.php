@@ -546,4 +546,4 @@ require get_parent_theme_file_path( '/inc/woocommerce-function.php' );
 /**
 * Custom post types
 */
-require get_parent_theme_file_path( '/custom-post-types.php' );
+require get_parent_theme_file_path( '/inc/custom-post-types.php' );

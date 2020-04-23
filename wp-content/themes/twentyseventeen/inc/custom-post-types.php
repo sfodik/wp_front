@@ -1,6 +1,6 @@
 <?php
 /**
-* Custom woocommerce function for this theme
+* Custom post types for this theme
 *
 *
 * @package WordPress

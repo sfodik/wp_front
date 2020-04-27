@@ -41,3 +41,10 @@
 .woocommerce-LoopProduct-link *:before {
     content: "\200E‎";
 }
+
+.summary.entry-summary *:after {
+    content: "\200E‎";
+}
+.summary.entry-summary *:before {
+    content: "\200E‎";
+}

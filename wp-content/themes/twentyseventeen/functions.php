@@ -419,18 +419,6 @@ function twentyseventeen_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 
-function rtl_style() {
-
-	wp_register_style( 'style-rtl', get_theme_file_uri( '/css/rtl.css', _FILE_ ) );
-
-	if ( is_rtl() ) {
-		wp_enqueue_style( 'style-rtl' );
-	}
-
-}
-
-add_action( 'wp_enqueue_scripts', 'rtl_style' );
-
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
  * for content images.
@@ -541,9 +529,9 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
 /**
 * Woocommerce functions
 */
-require get_parent_theme_file_path( '/inc/woocommerce-function.php' );
+// require get_parent_theme_file_path( '/inc/woocommerce-function.php' );
 
 /**
 * Custom post types
 */
-require get_parent_theme_file_path( '/inc/custom-post-types.php' );
+// require get_parent_theme_file_path( '/inc/custom-post-types.php' );

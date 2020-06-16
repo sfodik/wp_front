@@ -1,0 +1,37 @@
+.fr {
+    margin-right: 20px;
+    background: #347ab6;
+}
+
+.dh {
+    background: #59b65d;
+    padding: 10px;
+}
+
+.cst .col-md-3 {
+    padding: 10px 30px;
+    color: white;
+}
+
+.cst .row.no-gutters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cst .fas.fa-users, .cst .fas.fa-tasks {
+    font-size: 80px;
+}
+
+.cst .align-items-right {
+    margin-left: auto;
+    text-align: right;
+}
+
+.col-sm-6 {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 300px;
+}
